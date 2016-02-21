@@ -1,0 +1,365 @@
+body, html {
+font-family: 'Lato', sans-serif;
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
+color: #1c424d;
+}
+h1 {
+font-weight: 700;
+}
+h1 strong {
+font-weight: 900;
+}
+h2 {
+font-size: 36px;
+margin: 0;
+}
+h3 {
+font-size: 16px;
+font-weight: 700;
+}
+h5 {
+text-transform: uppercase;
+font-weight: 700;
+line-height: 20px;
+}
+p {
+font-family: 'Open Sans', sans-serif;
+font-size: 13px;
+}
+a {
+color: #5b777f;
+transition: all 0.5s;
+}
+a:hover, a:focus {
+text-decoration: none;
+color: #f1c40f;
+}
+.img-centered {
+margin: 0 auto;
+}
+ul, ol {
+list-style: none;
+}
+
+
+header {
+background: url(../img/header-bg.jpg) no-repeat bottom center;
+background-size: cover;
+color: #d9e0e2;
+position: relative;
+height: 100%;
+background-color:#transparent;
+}
+
+.top-bar-section li.active:not(.has-form) a:hover:not(.button) {
+color: #cfae15;
+background-color:none;
+}
+
+.top-bar-section li:not(.has-form) a:hover:not(.button) {
+color: #cfae15;
+background-color:none;
+}
+
+
+
+
+header .topbar {
+text-transform: uppercase;
+font-size: 25px;
+color: #cfae15;
+font-weight: 700;
+letter-spacing: 1px;
+margin-left: 40px;
+background-color:rgba(255,255,255,0)!important
+}
+
+header .top-bar-section{
+text-transform: uppercase;
+font-size: 25px;
+color: #cfae15;
+font-weight: 700;
+letter-spacing: 1px;
+margin-left: 40px;
+background-color:rgba(255,255,255,0)!important
+}
+header strong{
+text-transform: uppercase;
+font-size: 22px;
+color: #D9E0E2;
+font-weight: 700;
+letter-spacing: 1px;
+
+}
+
+header h1 spam{
+color:#cfae15;
+}
+
+header h1 strong{
+color:#cfae15;
+padding-top:250px;
+font-size: 80px;
+}
+header h1 {
+
+padding-top:180px;
+color: #d9e0e2;
+font-size: 80px;
+}
+header p {
+color: #d9e0e2;
+font-size: 20px;
+margin-bottom: 60px;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+#probtn{
+background-color:#cfae15;
+
+}
+
+
+
+
+#services {
+padding-top:120px;
+padding-bottom:50px;
+background-color:#032e3a;
+}
+
+
+#services h2{
+font-weight: 400;
+margin-bottom: 26px;
+color:#58777f
+}
+
+#services p{
+font-size:13px;
+margin-bottom: 80px;
+color:#58777f
+}
+
+
+hr{
+height: 3px;
+width: 60px;
+position: relative;
+background: #626A29 none repeat scroll 0% 0%;
+border: 0px none;
+margin-bottom: 30px !important;
+
+}
+
+#services i {
+font-size: 40px;
+border: 0px none;
+width: 100px;
+height: 80px;
+padding: 22px 25px;
+background: #032934 none repeat scroll 0% 0%;
+margin-bottom: 30px;
+border-radius: 10%;
+color: #F3CA27;
+transition: all 0.5s ease 0s;
+
+}
+#services h4{
+font-size: 20px;
+color: #81969C;
+text-transform: uppercase;
+}
+
+
+
+
+
+
+#portfolio{
+background-color:#cdad15;
+padding-top:80px;
+padding-bottom:40px;
+
+}
+#portfolio h2{
+font-size: 35px;
+}
+
+#portfolio p{
+font-size: 13px;
+}
+
+.port-folio{
+text-align: center;
+}
+.th{
+margin-top: 20px;
+}
+
+
+
+
+
+
+#about {
+padding-top:80px;
+padding-bottom:50px;
+background-color:#032e3a;
+}
+
+
+#about h2{
+font-weight: 400;
+margin-bottom: 26px;
+color:#58777f
+}
+
+#about p{
+font-size:13px;
+margin-bottom:50px;
+color:#58777f
+}
+
+#about h4 {
+color: #81969C;
+font-size: 20px;
+}
+#about li{
+color: #81969C;
+margin-bottom: 6px;
+list-style: outside none none;
+font-size:12px;
+padding: 0px;
+}
+
+.fa-check{
+color:#cdad15;
+}
+
+
+
+
+
+
+
+#team{
+background-color:#cdad15;
+padding-top:80px;
+padding-bottom:40px;
+
+}
+#team h2{
+font-size: 35px;
+}
+
+#team p{
+font-size: 13px;
+}
+
+
+.circle{
+width: 300px;
+height: 300px;
+border-radius: 150px;
+-webkit-border-radius: 150px;
+}
+
+#team h3{
+margin-top:20px;
+
+}
+
+#team li{
+padding-left:20px;
+font-size: 16px;
+color: #FAEAAB;
+margin-top:6px;
+
+}
+
+
+
+
+#slide{
+padding-top:80px;
+padding-bottom:80px;
+background-image:url(../img/testimonials-bg.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+
+#slide h2{
+font-weight: 400;
+margin-bottom: 26px;
+color:#58777f
+}
+
+#slide p{
+font-size:13px;
+margin-bottom: 20px;
+margin-top: 80px;
+color:#58777f
+}
+
+
+
+
+
+
+#contact{
+background-color:#cdad15;
+padding-top:120px;
+padding-bottom:40px;
+
+}
+#contact h2{
+font-size: 35px;
+}
+
+#contact.fa {
+color: #F8E287;
+margin-bottom: 10px;
+}
+#contact p{
+font-size: 13px;
+}
+
+
+#btn{
+background: transparent none repeat scroll 0% 0%;
+border: 2px solid #FEF9E7;
+border-radius: 4px;
+padding: 6px 14px;
+margin-top: 20px;
+color: #FEF9E7;
+font-size: 16px;
+transition: all 0.3s ease 0s;
+
+}
+
+#btn:hover{
+background: #FEF9E7 none repeat scroll 0% 0%;
+border: 2px solid #FEF9E7;
+color: #5B777F;
+}
+
+
+
+
+
+
+
+footer{
+padding-top:20px;
+padding-bottom:10px;
+background-color:#032731;
+}
+
+
+.social-fa li a{
+color:#F8E287;
+}
