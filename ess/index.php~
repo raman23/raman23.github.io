@@ -22,8 +22,8 @@
 					    PROVIDE EXCELLENCE CONSULTANCY IN SPINNING	
 					    <br> KNITTING AND DYEING PROJECTS
 					</p>
-					<a href="manufacturing.php"><button class="btn btn-default btn-bg">MANUFACTURING UNIT</button></a>
-					<a href="home.php"><button class="btn btn-default btn-bg">TEXTILE CONSULTANCY</button></a>
+					<a href="manufacturing.html"><button class="btn btn-default btn-bg">MANUFACTURING UNIT</button></a>
+					<a href="home.html"><button class="btn btn-default btn-bg">TEXTILE CONSULTANCY</button></a>
 				</div>
 			</div>
 		</div>

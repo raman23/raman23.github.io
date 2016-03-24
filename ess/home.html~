@@ -17,13 +17,13 @@
 			<div class="col-md-12 ">
 				<div class="bg-text">	
 					<h1>ESS PEE TEXTILES WELCOMES YOU</h1>
-					<p>LEADING MANUFACTURE OF CIRCULAR KNITTING FABRIC 
+					<p style='text-transform:capitalize'>LEADING MANUFACTURE OF CIRCULAR KNITTING FABRIC 
 					    <br> 
 					    PROVIDE EXCELLENCE CONSULTANCY IN SPINNING	
 					    <br> KNITTING AND DYEING PROJECTS
 					</p>
-					<a href="manufacturing.php"><button class="btn btn-default btn-bg">MANUFACTURING UNIT</button></a>
-					<a href="home.php"><button class="btn btn-default btn-bg">TEXTILE CONSULTANCY</button></a>
+					<a href="index1.html"><button class="btn btn-default btn-bg">MANUFACTURING UNIT</button></a>
+					<a href="index.html"><button class="btn btn-default btn-bg">TEXTILE CONSULTANCY</button></a>
 				</div>
 			</div>
 		</div>
