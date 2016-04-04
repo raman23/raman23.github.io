@@ -30,16 +30,16 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			     </button>
-			<a class="navbar-brand" style=" padding: 0px; padding-top:4px;" href="home.html"><img src='img/sp-white.png' class='img-responsive' style='max-height:60px'></a>
+			<a class="navbar-brand" style=" padding: 0px; padding-top:4px;" href="home.php"><img src='img/sp-white.png' class='img-responsive' style='max-height:60px'></a>
 			</div>
 			<div class="collapse navbar-collapse" id="nav">
 		      <ul class="nav navbar-nav navbar-right">
-				<li class='nav-link'><a href="index.html">Home</a></li>
-			    <li class='nav-link'><a href="services.html">Services</a></li>
-			    <li class='nav-link'><a href="teamexpert.html">Team Experts</a></li>
-			    <li class='nav-link'><a href="carear.html">carear</a></li>
-			    <li class='nav-link'><a href="about.html">About</a></li>
-			    <li class='nav-link'><a href="contact.html">Contact</a></li>
+				<li class='nav-link'><a href="index.php">Home</a></li>
+			    <li class='nav-link'><a href="services.php">Services</a></li>
+			    <li class='nav-link'><a href="teamexpert.php">Team Experts</a></li>
+			    <li class='nav-link'><a href="carear.php">carear</a></li>
+			    <li class='nav-link'><a href="about.php">About</a></li>
+			    <li class='nav-link'><a href="contact.php">Contact</a></li>
 			</ul>
 		  </div>
 	</div>
@@ -180,36 +180,6 @@
 </section>
 
 
-<?php
-
-if(isset($_POST['submit']) &&  $_POST['submit']=='SUBSCRIBE')
-{
-	
-	if(isset($_POST['email']) && $_POST['email']!='')
-				{
-				$email=$_POST['email'];	
-				}
-				else
-				{
-					echo "email is empty";
-					exit;
-				}
-	
-	$conn=mysql_connect('localhost','root','raman') or die(mysql_error());
-	mysql_select_db('esspee') or die(mysql_error());
-	
-	if()
-	
-	
-	
-	$qry="insert into subscribe (email) values ('$email')";
-	mysql_query($qry) or die(mysql_error());
-	
-	echo "<script type='text/javascript'>alert('Subscribe Successfully');</script>";	
-	}
-?>
-
-
 
 <section id="test">
 	<div class="container">
@@ -217,19 +187,19 @@ if(isset($_POST['submit']) &&  $_POST['submit']=='SUBSCRIBE')
 			  <h1 class="bg-h1">Testimonials</h1>
                 <p class="bg-p1" style="color: #616161;">Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
 			<div class="col-md-4">
-				<img class="img-circle center-block" src="img/index_img5.jpg">
+				<img class="img-circle center-block" src="img/index_img5.jpg" style='height:100px;width:100px'>
 				  <h6>Jennifer Rogers</h6>
                     <p class="web">web-designer</p>
                     <p class="quotes"><q>Lectus tincidunt pellentesque augue urna sit sed, arcu sed ante ac montes pellentesque consectetuer, neque magnis penatibus laoreet vehicula nulla orci, a malesuada justo laoreet ipsum, in ac fusce.</q></p>
 			</div>
 			<div class="col-md-4">
-				<img class="img-circle center-block" src="img/index_img6.jpg">
+				<img class="img-circle center-block" src="img/index_img6.jpg"  style='height:100px;width:100px'>
 				 <h6>Walter Williams</h6>
                     <p class="web">web-designer</p>
                     <p class="quotes"><q>Lectus tincidunt pellentesque augue urna sit sed, arcu sed ante ac montes pellentesque consectetuer, neque magnis penatibus laoreet vehicula nulla orci, a malesuada justo laoreet ipsum, in ac fusce.</q></p>
 			</div>
 			<div class="col-md-4">
-				<img class="img-circle center-block" src="img/index_img7.jpg">
+				<img class="img-circle center-block" src="img/index_img7.jpg"  style='height:100px;width:100px'>
 				 <h6>Derrick Whitehead</h6>
                     <p class="web">web-designer</p>
                     <p class="quotes"><q>Lectus tincidunt pellentesque augue urna sit sed, arcu sed ante ac montes pellentesque consectetuer, neque magnis penatibus laoreet vehicula nulla orci, a malesuada justo laoreet ipsum, in ac fusce.</q></p>
