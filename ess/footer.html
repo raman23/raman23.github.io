@@ -1,0 +1,60 @@
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<h1 class="footer-h1">EssPee Textiles</h1>
+            <p class="footer-p">We Build Future of Textile Industries</p>
+            <ul class="list-inline footer-ul">
+              <li><a href="https://www.facebook.com/esspeetextiles/?fref=ts" class="fa fa-facebook"></a></li>
+              <li><a href="#" class="fa fa-twitter"></a></li>
+              <li><a href="#" class="fa fa-google-plus"></a></li>
+              <ul>
+		</div>
+	</div>	
+		<section class="copyright">
+		
+            <p class="copy">© <span><?php echo date('Y') ?></span> All Rights Reserved <a href="#">Terms of Use and Privacy Policy</a> | Powered By <a target="_blank" href='http://webplusplus.in'>WebPlusPlus</a></p>
+        </section>
+	
+
+</footer>
+
+
+
+		<script src='js/jquery.js'></script>
+		<script src='js/bootstrap.min.js'></script>
+		<script src='js/jquery.lettering.js'></script>
+		<script src='js/jquery.textillate.js'></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+			$('.carousel').carousel({ interval: 3000 })
+			$('.carousel').carousel('cycle');
+			});
+		</script>
+		
+		
+		<script>
+		$(function () {
+		$('.animation').textillate({
+			in: {
+				effect: 'fadeInLeftBig'
+				}
+			});
+		})
+		</script>
+		<script>	
+		$('.count').each(function () {
+		$(this).prop('Counter',0).animate({
+			Counter: $(this).text()
+		}, {
+			duration: 4000,
+			easing: 'swing',
+			step: function (now) {
+			$(this).text(Math.ceil(now));
+			}
+			});
+		});
+		</script>
+			
+		
+	</body>

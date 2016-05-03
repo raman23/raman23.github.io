@@ -9,6 +9,8 @@ body
 overflow-x:hidden;
 }
 
+
+
 .navbar-default {
 background-color: transparent ;   
 border-bottom: 1px solid  #fff ;
@@ -104,6 +106,7 @@ transition:0.3s all;
 
 padding-top:250px;
 }
+
 
 
 .bg-h1{
@@ -401,8 +404,8 @@ font-size: 34px;
 
 
 #creative-lower{
-
 padding-top:150px;
+padding-bottom:150px;
 }
 
 
@@ -462,10 +465,20 @@ font-size: 14px;
 font-size: 40px;
 padding-top:60px;
 padding-bottom:60px;
-
   }
-
- 
- 
- 
  }
+
+.partners
+{
+	width:90%;
+	margin:0 auto;
+	margin-left:5%;
+	margin-right:5%;
+}
+.partners li
+{
+margin:0px;
+width:16%;
+}
+
+

@@ -6,7 +6,7 @@ box-sizing:border-box;
 }
 
 body{
-background: url(../img/header-bg1.png) no-repeat bottom center;
+background: url(../img/tread3.png) no-repeat bottom center;
 background-size:100% 100%;
 min-height:100vh;
 }
@@ -17,48 +17,50 @@ margin-top:160px;
 }
 
 .bg-text h1{
-font-size: 56px;
+font-size: 65px;
 color: #fff;
 letter-spacing: 0.02em;
 line-height: 1.2;
-font-family: Montserrat, sans-serif;
+font-family: Dancing Script;
 font-weight: 400;
 text-align:center;
 }
 
 .bg-text p{
 text-align:center;
-font-size: 30px;
+font-size: 25px;
 color: #fff;
+font-family:Times New Roman;
 line-height: 50px;
 margin-top:30px;
 margin-bottom:30px;
+text-transform:capitalize;
 }
+
+
 
 .bg-text .btn-bg{
 color: #fff;
+background-color: #14a5eb ;
+border-color: #14a5eb;
 padding: 12px 26px;
-background-color: transparent  ;
-border: 2px solid  #ccc; 
 border-radius:40px;
 font-size:15px;
 margin-top:60px;
 line-height: 24px;
 letter-spacing: 0.1em;
-font-family: Montserrat, sans-serif;
+font-family:Times New Roman;
 text-transform:uppercase;
 }
 
 
+
 .bg-text .btn-bg:hover{
 color: #fff;
-background-color: #14a5eb ;
-border-color: #14a5eb;
+background-color: transparent  ;
 transition:0.3s all;
+border: 1px solid  #ccc; 
 }
-
-
-
 
 
 
